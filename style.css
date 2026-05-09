@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-image: url(img/fons.jpg);
+}
+
+img {
+    width: 300px;
+}
+
+table {
+    margin: 6% 20%;
+}
