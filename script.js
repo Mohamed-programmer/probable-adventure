@@ -13,25 +13,25 @@ $(function () {
         var tipus = randomBetween(1, 3);
         //si el numaro es 1 surtira la imatge de el topo nurmal
         if (tipus == 1) {
-            $(`#furat${furat} img`).attr("src", "img/1punt.png");
+            $(`#furat${furat} img`).attr("src", "1punt.png");
             $(`#furat${furat} img`).addClass("unpunt");
 
         }
         //si la numero es 2 surtira un topo d'or
         else if (tipus == 2) {
-            $(`#furat${furat} img`).attr("src", "img/2punts.png");
+            $(`#furat${furat} img`).attr("src", "2punts.png");
             $(`#furat${furat} img`).addClass("dospunt");
 
         }
         //si la numero es 3 surtira un bomba
         else if (tipus == 3) {
-            $(`#furat${furat} img`).attr("src", "img/bomba.png");
+            $(`#furat${furat} img`).attr("src", "bomba.png");
             $(`#furat${furat} img`).addClass("bomba");
 
         }
         //cada sagon la imatga surtira
         setTimeout(function () {
-            $(`#furat${furat} img`).attr("src", "img/Furat.png");
+            $(`#furat${furat} img`).attr("src", "Furat.png");
             $(`#furat${furat} img`).removeClass();
         }, 1000);
         //si el temps ariva a 0 el joc sacabara
